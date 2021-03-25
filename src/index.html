@@ -1,0 +1,172 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="stylesheet" type="text/css" href="css/style.css"/> -->
+  <link rel="stylesheet" href="./index.scss" />
+  <title>Document</title>
+</head>
+<body>
+
+ <div id="app" data-state="0"> 
+    <div class="ui-big-images">    
+      
+     <!--  <div class="ui-big-image" data-key="0">
+        <img src="https://picsum.photos/1200/1200/?image=1005" alt=""/>
+      </div>
+      <div class="ui-big-image" data-key="1">
+        <img src="https://picsum.photos/1200/1200/?image=804" alt=""/>
+      </div>
+      <div class="ui-big-image" data-key="2">
+        <img src="https://picsum.photos/1200/1200/?image=838" alt=""/>
+      </div>
+      <div class="ui-big-image" data-key="3">
+        <img src="https://picsum.photos/1200/1200/?image=832" alt=""/>
+        src="https://m.media-amazon.com/images/I/31WSs7rM6JL._AC_UY218_.jpg"
+      </div> -->
+     <!--  <div class="ui-big-image" data-key="3">
+        <img src="https://picsum.photos/1200/1200/?image=832" alt=""/>
+      </div> -->
+      <div class="ui-big-image" data-key="0">
+        <img src="https://m.media-amazon.com/images/I/71NDtGvc5yL._AC_UL320_.jpg" alt=""/>
+        <!-- <img src="https://m.media-amazon.com/images/I/71w1AIP8YNL._AC_UY218_.jpg" alt=""/> -->
+      </div>
+      <div class="ui-big-image" data-key="1">
+        <img src="https://m.media-amazon.com/images/I/71w1AIP8YNL._AC_UY218_.jpg" alt=""/>
+      </div>
+      <div class="ui-big-image" data-key="2">
+        <img src="https://m.media-amazon.com/images/I/61ouJT58xlL._AC_UY218_.jpg" alt=""/>
+      </div>
+      <div class="ui-big-image" data-key="3">
+        <img src="https://m.media-amazon.com/images/I/41tFTHj77kL._AC_UY218_.jpg" alt=""/>
+      </div>
+      <div class="ui-big-image" data-key="4">
+        <img src="https://m.media-amazon.com/images/I/31WSs7rM6JL._AC_UY218_.jpg"  alt="" />
+        <!-- <img src="https://picsum.photos/1200/1200/?image=836" alt=""/> -->
+      </div>
+      <div class="ui-big-image" data-key="5">
+        <img src="https://m.media-amazon.com/images/I/51YCjKclIeL._AC_UY218_.jpg" alt="" />
+        <!-- <img src="https://picsum.photos/1200/1200/?image=823" alt=""/> -->
+      </div>
+      <div class="ui-big-image" data-key="6">
+        <img src="https://m.media-amazon.com/images/I/61jOwrZtCBL._AC_UY218_.jpg" alt="" />
+        <!-- <img src="https://picsum.photos/1200/1200/?image=823" alt=""/> -->
+      </div>
+    </div>
+    <div class="ui-thumbnails">
+      <div class="ui-thumbnail" tabindex="-1" data-key="0">
+        <img src="https://m.media-amazon.com/images/I/71NDtGvc5yL._AC_UL320_.jpg" alt=""/>
+        <!-- <img src="https://picsum.photos/1200/1200/?image=1005" alt="" /> -->
+        <div class="ui-cuticle" data-flip-key="cuticle"></div>
+      </div>
+      <div class="ui-thumbnail" tabindex="-1" data-key="1">
+        <img src="https://m.media-amazon.com/images/I/71w1AIP8YNL._AC_UY218_.jpg" alt=""/>
+        <!-- <img src="https://picsum.photos/1200/1200/?image=804" alt="" /> -->
+        <div class="ui-cuticle" data-flip-key="cuticle"></div>
+      </div>
+      <div class="ui-thumbnail" tabindex="-1" data-key="2">
+        <img src="https://m.media-amazon.com/images/I/61ouJT58xlL._AC_UY218_.jpg" alt=""/>
+        <!-- <img src="https://picsum.photos/1200/1200/?image=838" alt="" /> -->
+        <div class="ui-cuticle" data-flip-key="cuticle"></div>
+      </div>
+      <div class="ui-thumbnail" tabindex="-1" data-key="3">
+        <img src="https://m.media-amazon.com/images/I/41tFTHj77kL._AC_UY218_.jpg" alt=""/>
+        <!-- <img src="https://picsum.photos/1200/1200/?image=832" alt=""/> -->
+        <div class="ui-cuticle" data-flip-key="cuticle"></div>
+      </div>
+      <div class="ui-thumbnail" tabindex="-1" data-key="4">
+        <img src="https://m.media-amazon.com/images/I/31WSs7rM6JL._AC_UY218_.jpg"  alt="" />
+        <!-- <img src="https://picsum.photos/1200/1200/?image=836" alt="" /> -->
+        <div class="ui-cuticle" data-flip-key="cuticle"></div>
+      </div>
+      <div class="ui-thumbnail" tabindex="-1" data-key="5">
+        <img src="https://m.media-amazon.com/images/I/51YCjKclIeL._AC_UY218_.jpg" alt="" />
+        <!-- <img src="https://picsum.photos/1200/1200/?image=823" alt="" /> -->
+        <div class="ui-cuticle" data-flip-key="cuticle"></div>
+      </div>
+      <div class="ui-thumbnail" tabindex="-1" data-key="6">
+        <img src="https://m.media-amazon.com/images/I/61jOwrZtCBL._AC_UY218_.jpg" alt="" />
+        <!-- <img src="https://picsum.photos/1200/1200/?image=823" alt="" /> -->
+        <div class="ui-cuticle" data-flip-key="cuticle"></div>
+      </div>
+    </div>
+    <div class="ui-content">
+      
+      <nav class="ui-nav">
+        <button id="prev" tabindex="-1" title="Previous">&lt;</button>
+        <button id="next" tabindex="-1" title="Next">&gt;</button>
+      </nav>
+      
+      <div class="ui-articles">
+        <article class="ui-article" data-key="0">
+          <h2 class="ui-heading">Symphonies of the Soul</h2>
+          <h2 class="ui-date">2021</h2>
+          <p class="ui-paragraph">Set primarily in New York City's Soho neighborhood, the story tells of the work and loves 
+            of a number of friends and neighbors. They all must respond to the unexpected death of one of them from a heart attack. Several 
+            are musicians, several others are writers, or work pursuing other creative careers. The unexpected loss prompts them to look at their lives, and at life in 
+            general, as they share and mourn, and as they remember events in their lives that stirred them deeply.</p>
+        </article>
+        <article class="ui-article" data-key="1">
+          <h2 class="ui-heading">Athena Parthenos/Promachus</h2>
+          <h2 class="ui-date">2014</h2>
+          <p class="ui-paragraph">An American couple, Belle and Wren, have traveled to Greece on an anniversary trip, hoping to resurrect their stumbling marriage.
+             But at a party along the Attic coast they meet several guests who offer unexpected digressions, one being a cruise around the age-layered Aegean Sea.
+             Circumstances lead Belle to take the cruise, while Wren, alone in Athens for a few days, chooses to visit Delphi and its oracle. Told through their 
+             alternating views, both experience life-altering encounters which support their growing beliefs that their marriage can make neither happy and fulfillment
+             lies in other directions.</p>
+        </article>
+        <article class="ui-article" data-key="2">
+          <h2 class="ui-heading">Noah's Children</h2>
+          <h2 class="ui-date">2011</h2>
+          <p class="ui-paragraph">Noah's Children tells the story of an individual who awakens to the many environmental crises threatening our ways of life.
+             While global warming, visible and documented in countless cases, is the one great challenge to human existence as we have known it, a number of other
+             developments also threaten us, including extinctions, habitat loss, poisonings, overfishing, environmental degradation, loss of bio-diversity,
+             consumption habits, and population growth.
+
+            So what can an individual do? This story, of a journalist/biologist and father, offers some ideas. But ideas must include strategies for implementation,
+            which require cooperation among many susceptible to the imperfections of the species.</p>
+        </article>
+        <article class="ui-article" data-key="3">
+          <h2 class="ui-heading">Tales of the City</h2>
+          <h2 class="ui-date">2008</h2>
+          <p class="ui-paragraph"><strong>St. Mary’s Bar</strong> (237 pages)
+            This ensemble story of nine friends who meet weekly in a Soho bar opens one night when one member arrives pale and distraught from witnessing an African-American 
+            neighbor mistakenly arrested and then humiliated by the police. Most of the friends react with disbelief and outrage. Some want to confront the police immediately,
+            while others recommend a measured response.</p>
+          <br/>
+          <p class="ui-paragraph"><strong>Slipshod Watchman</strong> (186 pages)
+            Set in New York City’s West Village, this story of loss rides the events and emotions that first brought the love of a lifetime to a young,
+            off-Broadway actor, and then wrenched it away. Within the same timeframe, friendship between the actor and an African-American neighbor and her
+            teenage daughter is abruptly terminated by the woman’s brutal murder. In attempting to clarify his role in both tragedies, and to come to some
+            acceptance of it, the actor reviews the two, intertwined histories, frequently appropriating language and lines from classical plays he has performed.
+            </p>
+        </article>
+        <article class="ui-article" data-key="4">
+          <h2 class="ui-heading">Hymn</h2>
+          <h2 class="ui-date">2006</h2>
+          <p class="ui-paragraph">At the end of a long, cold winter in New York City, Christine Howth, a freelance journalist,
+             mourns the loss of her father while contemplating the first anniversary of her divorce. It is time for her,
+             at age thirty, to halt her drift. A first step is to begin a journal as a vehicle for reflection and a means of experimenting with
+             writing as she undertakes a first novel. A reconsideration of her career is next, as her part-time work is not paying the rent.</p>
+        </article>
+        <article class="ui-article" data-key="5">
+          <h2 class="ui-heading">Variations on a Theme</h2>
+          <h2 class="ui-date">2005</h2>
+          <p class="ui-paragraph">Variations on a Theme is a collection of five short stories and two brief memories, or memoirs, looking
+             back on former loves, attractions, and college. The theme uniting the stories and memories is love and attractions between
+             men and women. The writing styles vary, as do some of the story/memoir locations—New York City, Vermont, Rome, Italy. The
+             stories are mostly contemporary or occurring in recent decades, but one memoir looks back at the 60s.</p>
+        </article>
+        <article class="ui-article" data-key="6">
+          <h2 class="ui-heading">POEMS  Early Years, Middle Years;    and  short stories</h2>
+          <h2 class="ui-date">2019</h2>
+          <p class="ui-paragraph">This book is a collection of poems written over many years, experimenting with different styles and subjects.</p>
+        </article>
+      </div>
+    </div>
+ </div>
+<script src="./index.js"></script>  
+</body>
+</html>
